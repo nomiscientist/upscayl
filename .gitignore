@@ -30,7 +30,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -45,13 +44,12 @@ repo/
 build-dir/
 
 #vscode
-.vscode/
 
 main/*.js
 main/utils/*.js
 
-.env
 *.provisionprofile
 flags.ts
 *.p12
 dockerfile
+config.bat
